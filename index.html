@@ -24,6 +24,7 @@ header{
     padding:15px 50px;
     position:sticky;
     top:0;
+    z-index:1000;
 }
 
 nav{
@@ -150,6 +151,16 @@ nav ul li a:hover{
     margin:10px 0;
 }
 
+.contact a{
+    color:#4f46e5;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.contact a:hover{
+    text-decoration:underline;
+}
+
 footer{
     background:#222;
     color:white;
@@ -265,7 +276,12 @@ footer{
 <section id="contact" class="section contact">
     <h2>Contact Me</h2>
 
-    <p>📧 Email: aditi@example.com</p>
+    <p>📧 Email:
+        <a href="mailto:kapooraditi2014@gmail.com">
+            kapooraditi2014@gmail.com
+        </a>
+    </p>
+
     <p>💼 LinkedIn: linkedin.com/in/aditi</p>
     <p>💻 GitHub: github.com/aditi</p>
 </section>
